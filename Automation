@@ -1,0 +1,33 @@
+package week3.day1;
+
+public class Automation extends MultipleLanguage implements Language, Testtool {
+
+	public void selenium() {
+		// TODO Auto-generated method stub
+	System.out.println("xpath is the backbone of selenium");	
+	}
+
+	public void java() {
+		// TODO Auto-generated method stub
+	System.out.println("java is the computer Language");	
+	}
+
+	
+	public void ruby() {
+		// TODO Auto-generated method stub
+		System.out.println("gemstone");
+	}
+	public void python() {
+		System.out.println("python is the super language");
+	
+	}
+	
+	public static void main(String[] args) {
+		Automation automation = new Automation();
+		automation.python();
+		automation.java();
+		automation.selenium();
+		automation.ruby();
+	}
+
+}
