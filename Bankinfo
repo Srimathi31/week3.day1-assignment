@@ -1,0 +1,14 @@
+package org.college;
+
+public class Bankinfo {
+	public void opensaving() {
+		System.out.println("savings account opened");
+	}
+	public void fixedAccount() {
+		System.out.println("fixed account opened");
+	}
+	public void deposit() {
+		System.out.println("deposit account opened");
+	}
+
+}
