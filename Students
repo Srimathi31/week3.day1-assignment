@@ -1,0 +1,31 @@
+package org.student;
+
+public class Students {
+	public void Studentsinfo(int id) {
+		System.out.println("student id is"+ id);
+	}
+	
+	public void Studentsinfo(int id , String name) {
+		System.out.println("student id is"+ id + "and the name is" + name );
+	}
+	
+	public void Studeninfo(String email , String phonenumber) {
+		System.out.println("email id is" + email +"phonenumber"+ phonenumber);
+	}
+	
+	public static void main(String[] args) {
+		Students studentdetails = new Students();
+		studentdetails.Studentsinfo(312145);
+		studentdetails.Studentsinfo(312145, "radha");
+		studentdetails.Studeninfo("radha456@gmail.com", "8484848484");
+		
+		Students studentdetails2 = new Students();
+		studentdetails2.Studentsinfo(45656);
+		studentdetails2.Studentsinfo(45677, "thara");
+		studentdetails2.Studeninfo("thara.@gmail.com", "8745621582");
+		
+		
+		
+	}
+
+}
