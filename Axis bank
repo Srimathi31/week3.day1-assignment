@@ -1,0 +1,16 @@
+package org.college;
+
+public class AxisBank extends Bankinfo {
+	public void deposit() {
+		System.out.println("AxisBank deposit account");
+	}
+public static void main(String[] args) {
+	AxisBank AxisBank = new AxisBank();
+	Bankinfo Bankinfo = new Bankinfo();
+	
+	AxisBank.deposit();
+	Bankinfo.deposit();
+	Bankinfo.fixedAccount();
+	Bankinfo.opensaving();
+}
+}
