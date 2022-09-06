@@ -1,0 +1,14 @@
+package orgsystem;
+
+public class Desktop extends Computer{
+	public void desktopSize() {
+		System.out.println("32inch");
+	}
+public static void main(String[] args) {
+	Desktop desktop = new Desktop();
+	Computer computer = new Computer();
+	desktop.desktopSize();
+	computer.computerModel();
+	
+}
+}
